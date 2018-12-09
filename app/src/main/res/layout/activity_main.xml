@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimitris.falldetector.ui.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="100px"
+            android:paddingBottom="50px"
+            android:textAlignment="center"
+            android:text="@string/main_title"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:theme="@style/AppTheme.Gray"
+            android:id="@+id/btn_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_btn_choose"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:theme="@style/AppTheme.Gray"
+            android:id="@+id/btn_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30px"
+            android:text="@string/main_btn_history"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:theme="@style/AppTheme.Gray"
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30px"
+            android:text="@string/main_btn_start"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
